@@ -190,12 +190,9 @@
         <a href="https://ux.lglifecare.com/uxtech/LGPRAL/index.html" target="_blank" class="ms-auto link-light" hreflang="ar">UX TECH LG Pra.L</a>
       </div>
     </header>
-    <aside
-      class="bd-aside sticky-xl-top text-body-secondary align-self-start mb-3 mb-xl-5 px-2"
-    >
-      <h2 class="h6 pt-4 pb-3 mb-4 border-bottom">HTML</h2>
+    <aside class="bd-aside sticky-xl-top text-body-secondary align-self-start mb-3 mb-xl-5 px-2">
       <nav class="small" id="toc">
-        <ul class="list-unstyled">
+        <ul class="list-unstyled pt-3">
           <li class="my-2">
             <button
               class="btn d-inline-flex align-items-center collapsed border-0"
@@ -213,6 +210,7 @@
                   href="#main"
                   >PC Main</a
                 >
+                <button class="btn btn-sm btnTargetCopy" data-target="PCMain" type="button">복사하기</button>
               </li>
               <li>
                 <a
@@ -220,25 +218,25 @@
                   href="#subGnb"
                   >PC Sub GNB</a
                 >
+                <button class="btn btn-sm btnTargetCopy" data-target="PCSubGnb" type="button">복사하기</button>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
+      <hr>
+      <div>
+        GNB메뉴: class="menu-wrap" <br>
+        제품리뷰: class="reviews-section" <br>
+        제품소개: class="bodycare-section"
+      </div>
     </aside>
     <div class="bd-cheatsheet container-fluid bg-body">
       <section id="content">
-        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">
-          LG Pra.L
-        </h2>
         <article class="my-3" id="main">
-          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-            <h3>PC Main</h3>
-            <div class="d-grid gap-2">
-              <button class="btn btn-secondary btnTargetCopy" data-target="PCMain" type="button">복사하기</button>
-            </div>
-          </div>
-
+          <h2 class="fw-bold pt-3 pb-2 pb-xl-3">
+            PC Main
+          </h2>
           <div id="PCMain">
             <zero-md src="../md/pc_pral_main/pc_pral_main.md">
               <template data-merge="append">
@@ -250,12 +248,9 @@
           </div>
         </article>
         <article class="my-3" id="subGnb">
-          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-            <h3>PC Sub GNB</h3>
-            <div class="d-grid gap-2">
-              <button class="btn btn-secondary btnTargetCopy" data-target="PCSubGnb" type="button">복사하기</button>
-            </div>
-          </div>
+          <h2 class="fw-bold pt-0 pb-2 pb-xl-3">
+            PC Sub GNB
+          </h2>
           <div id="PCSubGnb">
             <zero-md src="../md/pc_pral_subgnb/pc_pral_subgnb.md">
               <template data-merge="append">

@@ -121,11 +121,11 @@ body {
   .bd-cheatsheet,
   .bd-cheatsheet section,
   .bd-cheatsheet article {
-    display: inherit; /* 1 */
+    display: inherit;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr;
     grid-column: 1 / span 2;
-    gap: inherit; /* 1 */
+    gap: inherit;
   }
 
   .bd-aside {
