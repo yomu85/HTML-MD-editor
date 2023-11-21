@@ -155,6 +155,7 @@ body {
   .bd-cheatsheet .bd-heading {
     top: 8rem;
     scroll-margin-top: 8rem;
+    overflow-x: auto;
   }
 
   .bd-cheatsheet .bd-heading {
